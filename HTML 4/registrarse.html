@@ -1,8 +1,69 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
+    <meta charset="utf-8"/>
+	<title> Biblioteca del programa de registro </title>
+	<link rel="stylesheet" type="text/css" href="./css/iniciar.css">
 </head>
-
+<body>
+    <div id="navegador">
+        <div class="logo">
+            <li><img src="recursos/logo_small_icon_only_inverted.png"></li>
+        </div>
+        <ul>
+            <li><a href="principal.html">My recipes</a></li>
+            <li><a style="float:right" href="iniciar.html">Iniciar Sesión</a></li>
+        </ul>
+    </div>
+	<div class="top">
+		<div class="top_center" style="height: 200px">
+			<div class="logo">
+				<img src="recursos/logo_small_icon_only_inverted.png"  alt="" style="width:53px;height:53px;margin-top:30px;">
+			</div>
+			<div class="welcome" style="margin-top:50px;">Registrarse</div>
+                        <div class = "welcome" style = "margin-top: 10px;"> Cree su cuenta </div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_center" style="height: 320px">
+			<div class="main_username">
+				 <div class = "word float_l"> Nombre de usuario o dirección de correo electrónico * </div>
+			</div>
+			<div class="main_input">
+				<div class="search float_l">
+					<input name="username"  type="text" style="width:270px;height:30px; border:1px #d1d5da solid;border-radius:3px; ">		
+				</div>
+			</div>
+			<div class="main_username" style="margin-top: 10px;">
+				 <div class = "word float_l"> Contraseña * </div>
+			</div>
+			<div class="main_input">
+				<div class="search" style="float:left;">
+					<input name="pwd"  type="password" maxlength="16" style="width:270px;height:30px; border:1px #d1d5da solid;border-radius:3px; ">	
+				</div>
+			</div>
+            <div class="main_username" style="margin-top: 10px;">
+				 <div class = "word float_l"> Confirme su contraseña * </div>
+			</div>
+			<div class="main_input">
+				<div class="search" style="float:left;">
+					<input name="pwd"  type="password" maxlength="16" style="width:270px;height:30px; border:1px #d1d5da solid;border-radius:3px; ">	
+				</div>
+			</div>
+			<div class="main_login">
+				<div class="button">
+					<a href="iniciar.html" style="color:white;" target="_blank"> Registrarse </a> 
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="foot">
+		<div class="foot_center">
+			<div class="foot_top">
+				<div class = "word1 float_l"> ¿Ya tienes una cuenta? </div>			
+				<div class = "word2 float_r"> <a href="iniciar.html"> Haga clic para iniciar sesión </a> </div>	
+			</div>
+        </div>
+	</div>
+</body>
 </html>

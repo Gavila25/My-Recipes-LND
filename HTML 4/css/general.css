@@ -1,0 +1,137 @@
+BODY {
+    font-size: medium;
+    font-style: italic;
+    background-color: white;
+}
+
+#navegador {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px;
+    background-color:black;
+}
+
+#navegador .logo {
+    float: left;
+}
+
+#navegador .logo img {
+    width: 50px;
+}
+
+#navegador ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#navegador li {
+    display: inline;
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#navegador li a:hover {
+    color: white;
+}
+
+
+#descripcion {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin-top: 40px;
+}
+
+#descripcion .titulo h1 {
+    text-align: center;
+}
+
+#descripcion .info {
+    text-align: center;
+    text-indent: 2% 2% 2% 2%;
+}
+
+#marcas {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin-top: 80px;
+    min-height: 300px;
+}
+
+#marcas .titulo {
+    text-align: center;
+}
+
+#marcas .imagenes {
+    float: center;
+}
+
+#marcas .imagenes img {
+    padding: 2px 3px 2px 3px;
+    width: 200px;
+}
+
+
+#recetas .imagenes{
+    display: table;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.arepas, .papasArrugadas, .sushi, .bunuelos, .boloniesa, .carbonara {
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+
+#footer {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    margin-top: 140px;
+    background-color: black;
+}
+
+
+#footer .logo {
+    float: left;
+}
+
+#footer .logo img {
+    width: 50px;
+}
+
+#footer .redes ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#footer .redes li{
+    display: inline;
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+#footer .redes li a{
+    padding: 2px 10px 2px 10px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#footer .redes li a:hover{
+    color: white;
+}
